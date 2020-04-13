@@ -41,5 +41,5 @@ jobs:
       - run: mvn clean package
 
       - store_artifacts:
-        path: ~/repo/target/testingspringboot-brewery-0.0.1-SNAPSHOT.jar
+          path: ~/repo/target/testingspringboot-brewery-0.0.1-SNAPSHOT.jar
 
